@@ -3,17 +3,18 @@ import Image from 'next/image';
 import Avatar from '../src/components/avatar';
 import { ViewGridIcon } from '@heroicons/react/solid';
 import { SearchIcon } from '@heroicons/react/outline';
+import Footer from '../src/components/footer';
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center h-screen">
       <Head>
         <title>Google</title>
         <meta name="description" content="Google Clone made with next" />
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png" />
       </Head>
 
-      <header>
+      <header className="w-full">
         <nav className="flex w-full p-5 justify-end text-sm text-gray-700">
           <ul className="flex space-x-4 items-center">
             <li className="link">Gmail</li>
@@ -24,7 +25,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <form className="flex flex-col items-center mt-28 flex-grow">
+      <form className="flex flex-col items-center mt-28 flex-grow px-2 md:w-4/5">
         <h1>
           <Image
             src="https://www.google.com/logos/doodles/2021/halloween-2021-6753651837109122.2-2xa.gif"
@@ -51,6 +52,8 @@ export default function Home() {
           <button className="btn">I{"'"}m Feeling Lucky</button>
         </div>
       </form>
+
+      <Footer />
     </div>
   )
 }

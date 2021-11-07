@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 function Avatar({ url }) {
   return (
     <img
