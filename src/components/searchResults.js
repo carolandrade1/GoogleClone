@@ -11,7 +11,7 @@ function SearchResults({ results }) {
       {results.items?.map((result) => (
         <div key={result.link} className="max-w-xl mb-8">
           <div className="group flex flex-col">
-            <a href={result.link} className="text-sml">{result.formattedUrl}</a>
+            <a href={result.link} className="text-sml line-clamp-1">{result.formattedUrl}</a>
             <a href={result.link} className="truncate text-xl text-blue-800 font-medium group-hover:underline">{result.title}</a>
           </div>
 
