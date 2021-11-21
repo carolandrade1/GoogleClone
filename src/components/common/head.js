@@ -21,7 +21,6 @@ function IndexHead({ title }) {
       <meta name="description" content="Google Clone" />
       <meta name="author" content="Carol Andrade Santos" />
       <meta name="keywords" content="Next.js, React, Tailwind" />
-      <meta httpEquiv="content-language" content="en-US" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
       {/* <!-- Open Graph / Facebook --> */}
