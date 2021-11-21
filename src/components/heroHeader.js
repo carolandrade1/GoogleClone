@@ -9,8 +9,8 @@ function HeroHeader() {
         <ul className="flex space-x-4 items-center">
           <li className="link">Gmail</li>
           <li className="link">Images</li>
-          <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-          <Avatar url="https://avatars.githubusercontent.com/u/65976843?v=4" />
+          <li><ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" /></li>
+          <li><Avatar url="https://avatars.githubusercontent.com/u/65976843?v=4" /></li>
         </ul>
       </nav>
     </header>
