@@ -43,7 +43,11 @@ These variables must be configured on:
 
 If you want to fork this project, you can get your own keys in:
  - Google Key: https://developers.google.com/custom-search/v1/using_rest
- - Context Key: https://cse.google.com/cse/create/new
+ - Context Key: https://cse.google.com/cse/create/new <br> You will receive a script, but you will only need the number of the context, which will be after 'cx='. Ex.:
+    ```
+    <script async src="https://cse.google.com/cse.js?cx=98749854165sd651651"></script>
+    ```
+  
 
 Or you can use the useDummyData as true on Search Page. 
 
@@ -75,7 +79,7 @@ npm run dev
 - Static pages generated dynamically,
 - Static content,
 - Navigation as SPA,
-- Add images domains in `next.config.js`.
+- Add images domains and i18n in `next.config.js`.
 
 ---
 
