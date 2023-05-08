@@ -19,7 +19,7 @@ function Form() {
     <form className="flex flex-col items-center mt-12 flex-grow px-2 md:w-4/5">
       <h1>
         <Image
-          src="https://www.loosebyte.com/wp-content/uploads/2020/10/google-logo-transparent.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png"
           alt="Google Logo"
           width={310}
           height={105}
