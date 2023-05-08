@@ -19,7 +19,7 @@ function Form() {
     <form className="flex flex-col items-center mt-12 flex-grow px-2 md:w-4/5">
       <h1>
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
           alt="Google Logo"
           width={310}
           height={105}
